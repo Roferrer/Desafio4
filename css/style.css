@@ -48,6 +48,10 @@ header {
   z-index: 1;
   width: 100%;
   border-bottom: 1px solid #3a3a3a;
+  background-image: linear-gradient(
+    rgb(139, 0, 252),
+    rgb(0, 238, 159)
+  ); /* DEGRADADO */
 }
 
 .header__logo {
@@ -90,6 +94,17 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   display: inline-block;
+}
+
+span {
+  /* TRANSICION */
+  height: auto;
+  transition: height 2s;
+}
+
+span:hover {
+  height: 200px;
+  opacity: 0.5;
 }
 
 .display-2--description {
